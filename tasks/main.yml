@@ -1,0 +1,5 @@
+---
+- name: Copy subnet.env
+  copy:
+    src: subnet.env
+    dest: /run/flannel/subnet.env
